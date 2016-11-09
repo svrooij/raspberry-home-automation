@@ -25,6 +25,7 @@ As stated in the [README](./README.md), sadly enough most home automation device
 - [**evohome2mqtt**](https://github.com/svrooij/evohome2mqtt) connects my evohome system to mqtt. (And is actually the second MQTT bridge I developed.)
 - [**hue2mqtt**](https://github.com/svrooij/hue2mqtt) connects all my Philips hue lights to mqtt. I've created this bridge even though their was one [available](https://github.com/owagner/hue2mqtt), but the latter was in java, something I didn't want to install on my Pi.
 - [**kodi2mqtt**](https://github.com/owagner/kodi2mqtt) This [Kodi](https://kodi.tv) plugin makes kodi talk mqtt about status changes.
+- [**mqtt-camera-ftpd**](https://github.com/stjohnjohnson/mqtt-camera-ftpd) is a FTP server that you can use in combination with the picture upload functionality on your IPCAM. This way events (motion or sound if supported) from your IPCAM get published to your MQTT server.
 
 ## Extra Node RED [nodes](https://flows.nodered.org)
 
